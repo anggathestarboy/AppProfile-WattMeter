@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-brand-green: #00ff66;
+  --color-brand-emerald: #10e563;
+  --color-brand-dark: #090a0f;
+  --color-brand-charcoal: #12141a;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #08090d;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+/* Subtle dot grid for Nothing OS / industrial tech aesthetic */
+.tech-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.tech-grid-green {
+  background-image: radial-gradient(rgba(0, 255, 102, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

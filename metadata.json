@@ -1,0 +1,6 @@
+{
+  "name": "Wattmeter – Android Battery Monitor & Diagnostics",
+  "description": "Monitor device battery health, real-time charging wattage, voltage, temperature, and cycle wear with Wattmeter open-source Android app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
